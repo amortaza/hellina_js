@@ -34,7 +34,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -71,6 +70,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -81,9 +81,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Run.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../src/sample/Run.java">
+        <entry file="file://$PROJECT_DIR$/../src/js_ellina/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="163" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.23111783">
+            <state line="26" column="163" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.15133531">
               <folding />
             </state>
           </provider>
@@ -101,10 +101,8 @@
       <file leaf-file-name="JsEllina.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="-10.2">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,7 +119,7 @@
       <file leaf-file-name="JsCallbackInvoker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsCallbackInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="27" selection-start="2655" selection-end="2655" vertical-scroll-proportion="-23.08">
+            <state line="45" column="27" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +128,7 @@
       <file leaf-file-name="JsInvoker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="-19.0">
+            <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../src/js_ellina/JsInvoker2i.java" />
         <option value="$PROJECT_DIR$/../src/js_ellina/JsInvoker.java" />
         <option value="$PROJECT_DIR$/../src/sample/Mouse.js" />
         <option value="$PROJECT_DIR$/../src/js_ellina/util/StreamConverter.java" />
@@ -162,6 +159,7 @@
         <option value="$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java" />
         <option value="$PROJECT_DIR$/../src/js_ellina/js/sys_common.js" />
         <option value="$PROJECT_DIR$/../src/sample/Run.java" />
+        <option value="$PROJECT_DIR$/../src/js_ellina/Run.java" />
       </list>
     </option>
   </component>
@@ -220,102 +218,6 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsEllina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsEllina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amortaza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsEllina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amortaza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsEllina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amortaza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="JsEllina" />
@@ -437,12 +339,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -515,7 +417,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Run" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Run" />
+      <option name="MAIN_CLASS_NAME" value="js_ellina.Run" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../src/sample" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../src/sample" />
@@ -565,7 +467,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-4" width="1866" height="1208" extended-state="1" />
+    <frame x="58" y="-4" width="1866" height="1208" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -576,7 +478,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -586,6 +487,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -655,68 +557,67 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../src/js_ellina/sys_common.js">
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/jdk1.7/src.zip!/java/awt/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/js/sys_common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="13" selection-start="4809" selection-end="4809" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../_hellina/src/com/github/amortaza/hellina/device/IGraphicsDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../_hellina/src/com/github/amortaza/hellina/intf/IPlatform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="14" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/js_ellina/js/sys_class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="5" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.9505095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/sample/mouse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="39" selection-end="39" vertical-scroll-proportion="0.024745269">
+        <state line="1" column="105" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsCallbackInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="27" selection-start="2655" selection-end="2655" vertical-scroll-proportion="-23.08">
+        <state line="45" column="27" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="-19.0">
+        <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.7/src.zip!/java/awt/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="13" selection-start="4809" selection-end="4809" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/js/sys_class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="5" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.9505095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/sample/mouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="15" selection-start="39" selection-end="39" vertical-scroll-proportion="0.024745269" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsCallbackInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="27" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="-10.2">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,9 +635,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/sample/Run.java">
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="163" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.23111783">
+        <state line="26" column="163" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.15133531">
           <folding />
         </state>
       </provider>
