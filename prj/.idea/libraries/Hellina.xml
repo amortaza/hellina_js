@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Hellina">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../_hellina/prj/out/production/Hellina" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../_hellina/src" />
+    </SOURCES>
+  </library>
+</component>
