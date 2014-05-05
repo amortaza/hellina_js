@@ -23,13 +23,21 @@ import java.io.IOException;
 
 public class Run {
     public static void main( String[] args ) throws ScriptException, IOException, NoSuchMethodException {
-        if (args.length == 0) {
-            System.out.println( "Missing required parameter.  Please pass the path to where the main.js is, using forward slashes (/).  Example: c:/temp/script" );
+        if (!processInput(args))
             return;
-        }
 
         JsEllina e = new JsEllina(args[0]);
 
         e.start();
     }
+
+   private static boolean processInput( String[] args ) {
+       if (args.length == 0) {
+           System.out.println( "Usage: js_ellina.Run PATH_TO_SCRIPT (using forward slashes (/) - example, 'c:/temp/script'" );
+
+           return false;
+       }
+
+       return true;
+   }
 }

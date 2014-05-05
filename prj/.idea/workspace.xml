@@ -4,9 +4,9 @@
     <list default="true" id="6b11f6dd-b089-4527-8b5e-23f722ea534e" name="Default" comment="" />
     <ignored path="JsEllina.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399009465354" ignored="false" />
-    <file path="/Run.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399009665215" ignored="false" />
-    <file path="/JsEllina.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399009386856" ignored="false" />
+    <file path="/fragment.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399274679685" ignored="false" />
+    <file path="/Run.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399273984004" ignored="false" />
+    <file path="/JsEllina.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399274657468" ignored="false" />
     <file path="/CallbackInvoker.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1398232608132" ignored="false" />
     <file path="/JsInvoker.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399009242688" ignored="false" />
     <file path="/JsInvoker2i.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1398232998860" ignored="false" />
@@ -20,6 +20,7 @@
     <file path="/sys_common.js" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399009436640" ignored="false" />
     <file path="/gl.js" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1398840400865" ignored="false" />
     <file path="/mouse.js" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1398841636712" ignored="false" />
+    <file path="/a.java" changelist="6b11f6dd-b089-4527-8b5e-23f722ea534e" time="1399274819378" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Run.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Run.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/js_ellina/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="163" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.15133531">
+            <state line="28" column="28" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,8 +102,10 @@
       <file leaf-file-name="JsEllina.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="36" column="84" selection-start="1493" selection-end="1493" vertical-scroll-proportion="-20.4">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +113,7 @@
       <file leaf-file-name="sys_common.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/js_ellina/js/sys_common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="105" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="1" column="105" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsInvoker.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JsInvoker.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+            <state line="2" column="13" selection-start="38" selection-end="38" vertical-scroll-proportion="0.051359516">
               <folding />
             </state>
           </provider>
@@ -156,10 +159,10 @@
         <option value="$PROJECT_DIR$/../src/js_ellina/init/JsCallbackInvoker.java" />
         <option value="$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java" />
         <option value="$PROJECT_DIR$/../src/sample/main.js" />
-        <option value="$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java" />
         <option value="$PROJECT_DIR$/../src/js_ellina/js/sys_common.js" />
         <option value="$PROJECT_DIR$/../src/sample/Run.java" />
         <option value="$PROJECT_DIR$/../src/js_ellina/Run.java" />
+        <option value="$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java" />
       </list>
     </option>
   </component>
@@ -177,14 +180,180 @@
             <id />
           </State>
           <State>
-            <id>Spelling</id>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Annotations verifyingGroovy</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issues</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Cloning issues</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Data flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Imports</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Spelling</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -215,9 +384,26 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JsEllina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hellina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hellina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="JsEllina" />
@@ -324,17 +510,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../src/sample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hellina/out/production/Hellina" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -419,7 +606,7 @@
     <configuration default="false" name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="js_ellina.Run" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../src/sample" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../src/sample/main.js" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../src/sample" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -478,6 +665,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -487,7 +675,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -557,10 +744,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/js/sys_common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="105" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsCallbackInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="27" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,23 +817,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../src/js_ellina/js/sys_common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="105" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+        <state line="1" column="105" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -637,7 +833,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/js_ellina/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="163" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.15133531">
+        <state line="28" column="28" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsEllina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="84" selection-start="1493" selection-end="1493" vertical-scroll-proportion="-20.4">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/js_ellina/init/JsInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="38" selection-end="38" vertical-scroll-proportion="0.051359516">
           <folding />
         </state>
       </provider>

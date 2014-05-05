@@ -22,7 +22,10 @@ public class JsEllina {
     final IPlatform platform = new Platform();
     final JsCallbackInvoker callbackInvoker = new JsCallbackInvoker();
 
-    public JsEllina(String scriptPath) throws IOException, ScriptException {
+    public JsEllina(String pathToMain) throws IOException, ScriptException {
+        File mainFile = new File(pathToMain);
+        String scriptPath = mainFile.getParentFile().getAbsolutePath();
+
         engine = new ScriptEngineManager().getEngineByName( "javascript" );
 
         engine.put("sys_script_path", scriptPath);
@@ -31,7 +34,7 @@ public class JsEllina {
 
         engine.eval( new InputStreamReader( getClass().getResourceAsStream( "../js/sys_common.js" ) ) );
         engine.eval( new InputStreamReader( getClass().getResourceAsStream( "../js/sys_class.js" ) ) );
-        engine.eval( new FileReader( new File( "main.js" ) ) );
+        engine.eval( new FileReader( new File( scriptPath + "/" + mainFile.getName() ) ) );
 
         callbackInvoker.setInvocable( ( Invocable ) engine );
     }
